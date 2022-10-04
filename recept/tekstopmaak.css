@@ -1,0 +1,24 @@
+.a {
+    color: red;
+    line-height: 25px;
+}
+
+.b {
+    color: blue;
+    text-decoration: underline;
+}
+
+.c {
+    color: green;
+    text-shadow: 2px 2px black;
+}
+
+.d {
+    color: orange;
+    font-style: oblique;
+}
+
+.e {
+    color: magenta;
+    background-color: aquamarine;
+}

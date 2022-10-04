@@ -1,0 +1,27 @@
+body{
+    background-color: #d9ddd7;
+    font-family: 'Verdana',sans-serif;
+}
+
+.text-darkgreen{
+    color: darkgreen;
+}
+
+p{
+    color: #fff;
+    background-color: #6a7689; padding: 20px;
+}
+
+.highlight{
+    color: yellow; border: solid 2px yellow;
+    margin-left: 20%; margin-right: 20%;
+    text-align: center;
+}
+
+.link {
+    color: white;
+}
+
+a:hover{
+    color: #6df469;
+}
