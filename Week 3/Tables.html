@@ -10,12 +10,26 @@
 
         td, th {
             border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+        }
+
+        tr th:nth-child(3),th:nth-child(2) {
+            background-color: yellow;
         }
     </style>
 </head>
 <body>
 
 <table>
+    <thead>
+    <tr>
+        <td colspan="3">
+            PXL
+        </td>
+    </tr>
+    </thead>
     <tr>
         <th>Naam</th>
         <th>Voornaam</th>
@@ -29,6 +43,13 @@
         <td>y</td>
         <td>z</td>
     </tr>
+    <tfoot>
+    <tr>
+        <td colspan="3">
+            PXL
+        </td>
+    </tr>
+    </tfoot>
 </table>
 
 

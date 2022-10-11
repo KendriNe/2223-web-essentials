@@ -1,14 +1,22 @@
-.doos{
-    display: block;
+.doos {
     border-style: solid;
     border-color: black;
-    border-width: 2px
+    border-width: 2px;
+    width: 1000px;
 }
 
-.grijze_box{
+.grijze_box {
+    display: inline-block;
     background-color: gray;
     padding: 15px;
     border-style: solid;
     border-color: green;
     border-width: 5px;
+    width: 250px;
+}
+
+.lorem {
+    display: inline-block;
+    margin-right: 50px;
+    width: 500px;
 }
