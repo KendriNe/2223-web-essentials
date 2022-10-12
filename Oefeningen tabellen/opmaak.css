@@ -1,11 +1,26 @@
+body {
+color: white;
+}
+
 table {
-    border: 2px solid black
+    border: solid black;
+    border-collapse: collapse;
+    width: 100%;
 }
 
 td, th {
-    border: 2px solid black;
+    border: solid black;
+    width: 150px;
 }
 
-tr, th {
-    width: 200px;
+.lightblue {
+    background-color: #6facff;
+}
+
+.blue {
+    background-color: #4f8cef;
+}
+
+.darkblue {
+    background-color: #27426d;
 }
