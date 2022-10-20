@@ -1,0 +1,30 @@
+body {
+    background-color: #151c28;
+}
+
+.gelebox {
+    display: block;
+    width: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #ffe14f;
+    border-radius: 15px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.head {
+    text-align: center;
+    color: #ffe14f;
+}
+
+div {
+    margin: auto;
+}
+
+.gelebox:hover {
+    background-color: #8daec6;
+}
