@@ -6,18 +6,6 @@
     margin: 5px;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
 .container {
     flex-direction: column;
 }
