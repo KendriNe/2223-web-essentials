@@ -1,11 +1,23 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .groenbox {
-    display: inline-block;
-    background-color: green;
-    width: 100px;
-    height: 100px;
-    margin: 5px;
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
 }
 
 .container {
-    flex-direction: column;
+  display: flex;
+  flex-flow: wrap row;
 }
