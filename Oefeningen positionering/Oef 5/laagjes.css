@@ -1,0 +1,72 @@
+h1 {
+    position: absolute;
+    top: 450px;
+    color: green;
+}
+
+.groenebox1 {
+    z-index: -1;
+    background-color: green;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px;
+}
+
+.groenebox2 {
+    z-index: -2;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: green;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px;
+    opacity: 75%;
+}
+
+.groenebox3 {
+    z-index: -3;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: green;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px;
+    opacity: 50%;
+}
+
+.groenebox4 {
+    z-index: -4;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    background-color: green;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px;
+    opacity: 25%;
+}
+
+.groenebox5 {
+    z-index: -5;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    background-color: green;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px;
+    opacity: 10%;
+}
+
