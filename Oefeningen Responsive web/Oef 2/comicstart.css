@@ -94,5 +94,70 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
+    nav ul {
+        display: flex;
+    }
 
+    li {
+        width: 13%;
+    }
+
+    .container {
+        display: flex; 
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #container {
+        width: 100%;
+        margin: 0%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li {
+        width: 25%;
+    }
+
+    .container {
+        display: flex; 
+        justify-content: space-between;
+    }
+}
+
+@media  screen and (max-width: 800px) {
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li {
+        width: 50%;
+    }
+
+    .container {
+        display: block; 
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    article {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    nav {
+        display: none;
+    }
+    
+    aside {
+        display: none;
+    }
 }
