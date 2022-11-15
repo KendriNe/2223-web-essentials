@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url(img/windows-11-dark-mode-abstract-background-dark-background-3840x2160-8711.jpg);
+  background-color: black;
   object-fit: cover;
 }
 
@@ -53,99 +53,4 @@ nav ul li a {
 nav ul li a:hover {
   color: #fa3267;
   transition: 0.4s;
-}
-
-.container1 {
-  display: flex;
-  margin: 50px 120px;
-  background-color: #fa3267;
-  border-radius: 50px;
-  height: 100%;
-}
-
-.profile {
-  padding-left: opx;
-  width: 150px;
-}
-
-.box1 {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  height: 100px;
-}
-
-.about {
-  padding: 30px;
-  text-align: center;
-}
-
-.container2 {
-  text-align: center;
-  margin: 50px 120px;
-  background-color: #fa3267;
-  border-radius: 50px;
-  height: 100%px;
-}
-
-.experience {
-  padding: 30px;
-  height: 400px;
-}
-
-table {
-  color: white;
-  margin-top: 30px;
-  display: inline-block;
-  border-collapse: collapse;
-}
-
-table tr td {
-  text-align: left;
-  padding-left: 10px;
-  width: 250px;
-  height: 80px;
-}
-
-.container3 {
-  text-align: center;
-  margin: 50px 120px;
-  background-color: #fa3267;
-  border-radius: 50px;
-  height: 100%;
-}
-
-.skills {
-  padding: 30px;
-}
-
-.boxes {
-  margin-top: 30px;
-}
-
-.bar1 {
-  background: linear-gradient(to right, black 50%, #fa3267 50%);
-  border-radius: 10px;
-  border: 2px solid black;
-  padding: 5px;
-  text-align: center;
-  margin-top: 15px;
-}
-
-.bar2 {
-  background: linear-gradient(to right, black 25%, #fa3267 75%);
-  border-radius: 10px;
-  border: 2px solid black;
-  padding: 5px;
-  text-align: center;
-  margin-top: 15px;
-}
-
-.bar3 {
-  background: linear-gradient(to right, black 15%, #fa3267 85%);
-  border-radius: 10px;
-  border: 2px solid black;
-  padding: 5px;
-  text-align: center;
-  margin-top: 15px;
 }
