@@ -54,3 +54,7 @@ nav ul li a:hover {
   color: #fa3267;
   transition: 0.4s;
 }
+
+a {
+  text-decoration: none;
+}
