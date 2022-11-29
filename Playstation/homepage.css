@@ -1,0 +1,111 @@
+body{
+    font-family: SST,helvetica,arial,sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    text-align: right;
+    padding: 5px;
+}
+
+header img {
+    height: 15px;
+}
+.navigatie {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigatie div {
+    display: flex;
+    align-items: center;
+}
+
+.left a {
+    text-decoration: none;
+    padding-left: 25px;
+    color: black;
+}
+
+.sign {
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 50px;
+}
+
+.search img {
+    width: 20px;
+    padding-right: 15px;
+    padding-left: 25px;
+}
+
+.logo {
+    height: 75px;
+}
+
+.container1 {
+    background-image: url(assets/deel-1/hero-banner.png);
+    background-size: cover;
+    background-position: center;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+.holiday {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    width: 50%;
+}
+
+.head {
+    font-size: 40px;
+}
+
+.orange {
+    margin-top: 25px;
+    margin-right: 40%;
+    margin-left: 40%;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    background-color: orangered;
+    text-decoration: none;
+}
+
+.container2 {
+    display: flex;
+    padding: 30px 50px 30px 50px;
+    height: 100%;
+}
+
+.cards {
+    border-radius: 25px;
+    height: 125px;
+    opacity: 75%;
+    padding: 5px;
+}
+
+.cards:hover {
+    border: solid blue 3px;
+    opacity: 100%;
+    position: relative;
+    bottom: 15px;
+}
+
+.container3 {
+    background-image: url(assets/deel-1/far-cry-banner.png);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    color: white;
+    padding: 30px 50px 50px 50px;
+}
