@@ -26,6 +26,7 @@ header img {
 .left a {
     text-decoration: none;
     padding-left: 25px;
+    padding-right: 5px;
     color: black;
 }
 
@@ -71,7 +72,7 @@ header img {
 }
 
 .orange {
-    margin-top: 25px;
+    margin: 25px;
     margin-right: 40%;
     margin-left: 40%;
     padding: 10px;
@@ -83,6 +84,7 @@ header img {
 
 .container2 {
     display: flex;
+    justify-content: space-between;
     padding: 30px 50px 30px 50px;
     height: 100%;
 }
