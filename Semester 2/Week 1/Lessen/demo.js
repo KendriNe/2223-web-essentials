@@ -1,6 +1,5 @@
-/* console.log("Goedemorgen Kenji en Ashie Beshie"); // console in de browser
+console.log("Goedemorgen Kenji en Ashie Beshie"); // console in de browser
 
-alert("Goedemorgen Kenji en Ashie Beshie");
 
 console.log("Op lijn 6 gepasserd...");
 
@@ -38,4 +37,3 @@ if("1" === 1) {
 else {
 console.log("datatype is niet gelijk")
 }
-*/
