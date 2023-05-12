@@ -1,12 +1,13 @@
-import { ref, computed } from 'vue'
-import { defineStore } from 'pinia'
+import { createApp } from 'vue'
+import { createPinia } from 'pinia'
 
-export const useCounterStore = defineStore('counter', () => {
-  const count = ref(0)
-  const doubleCount = computed(() => count.value * 2)
-  function increment() {
-    count.value++
-  }
+import App from './App.vue'
+import router from './router'
 
-  return { count, doubleCount, increment }
-})
+import './assets/main.css'
+
+const app = createApp(app)
+app.use(createPinia())
+app.use(router)
+
+app.mount('#app')
