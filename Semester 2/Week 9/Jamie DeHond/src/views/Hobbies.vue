@@ -14,6 +14,20 @@
         <img v-bind:src="'src/assets/' + this.selectedHobbyIndex.afbeelding" alt="afbeelding">
       </p>
     </div>
+
+    <div>
+      <hr>
+      <form @submit.prevent="addRecord">
+      <table>
+        <tr><th>id : </th><td><input type="text" v-model="this.newID" :disabled="true"></td></tr>
+        <tr><th>Naam : </th><td><input type="text" v-model="this.newNaam"></td></tr>
+        <tr><th>Club : </th><td><input type="text" v-model="this.newClub"></td></tr>
+        <tr><th>Plaats : </th><td><input type="text" v-model="this.newPlaats"></td></tr>
+        <tr><th>Afbeelding : </th><td><input type="text" v-model="this.newAfbeelding"></td></tr>
+        <tr><td colspan="2"><button type="submit">Voeg toe</button></td></tr>
+      </table>
+      </form>
+    </div>
   </div>
 </template>
 
@@ -23,6 +37,12 @@ export default {
 
   data(){
     return{
+      newObject : {},
+      newID : 0,
+      newNaam : '',
+      newClub : '',
+      newPlaats : '',
+      newAfbeelding : '',
       zichtbaar : false,
       selectHobbyIndex : 0,
       pagina_titel : "Mijn Hobbies",
@@ -38,6 +58,23 @@ export default {
     }
   },
   methods : {
+    addRecord() {
+      this.newObject = { id: parseInt(this.hobbies[this.hobbies.length - 1].id) + 1,
+                          naam: this.newNaam,
+                          club: this.newClub,
+                          plaats: this.newPlaats,
+                          afbeelding: this.newAfbeelding
+                        }
+
+      //voeg het record toe
+      this.hobbies.push(this.newObject);
+      //blank alle formfields
+      this.newId = 0;
+      this.newNaam = '';
+      this.newClub = '';
+      this.newPlaats = '';
+      this.newAfbeelding = '';
+    },
     selectHobby(index) {
       this.selectHobbyIndex = index;
       this.zichtbaar = true;

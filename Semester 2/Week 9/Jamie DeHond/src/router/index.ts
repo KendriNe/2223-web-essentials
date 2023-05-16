@@ -26,6 +26,11 @@ const router = createRouter({
       path: '/Hobbies',
       name: 'Hobbies',
       component: () => import('../views/Hobbies.vue')
+    },
+    {
+      path: '/CustomEventView',
+      name: 'Custom Event',
+      component: () => import('../views/CustomEventView.vue')
     }
   ]
 })

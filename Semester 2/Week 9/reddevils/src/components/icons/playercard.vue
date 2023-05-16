@@ -24,6 +24,7 @@ export default {
   div {
     float: left ;
     width: 33%;
-    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
   }
 </style>

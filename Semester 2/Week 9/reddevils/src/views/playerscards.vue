@@ -1,5 +1,6 @@
 <template>
   <div>
+    <img>
     <playercard
         v-for="speler in this.players"
         v-bind:selectedplayer = speler
