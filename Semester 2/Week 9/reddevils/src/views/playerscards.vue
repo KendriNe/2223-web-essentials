@@ -1,16 +1,21 @@
 <template>
   <div>
-    <img>
-    <playercard
+    <div class="bovenDiv">
+      <img class="logo" src="..\assets\logo_KBVB.png">
+      <p>Je hebt {{this.teller}} spelers aangeduid</p>
+      <hr>
+    </div>
+    
+      <playercard
         v-for="speler in this.players"
         v-bind:selectedplayer = speler
-    >
-    </playercard>
+      >
+      </playercard>
   </div>
 </template>
 
 <script>
-import Playercard from "@/components/icons/playercard.vue";
+import Playercard from "@/components/playercard.vue";
 export default {
   name: "playerscards",
   components: {Playercard},
@@ -32,12 +37,20 @@ export default {
         {id:11 , speler : "Leandro Trossard", geboortedatum: "04/12/1994", club:"Brighton & Hove Albionver", afbeelding: "trossard.png"},
         {id:12 , speler : "Jan Verthongen", geboortedatum: "24/04/1987", club:"SL Benfica", afbeelding: "verthongen.png"},
         {id:13 , speler : "Axel Witsel", geboortedatum: "12/01/1989", club:"Borussia Dortmund", afbeelding: "witsel.png"}
-      ]
+      ],
+
+      teller : 0,
     }
   }
 }
 </script>
 
 <style scoped>
+  .logo {
+    width: 250px;
+  }
 
+  .bovenDiv {
+    text-align: center;
+  }
 </style>

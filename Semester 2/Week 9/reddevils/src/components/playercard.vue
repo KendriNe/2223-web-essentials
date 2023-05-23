@@ -4,6 +4,7 @@
     <p>{{this.selectedplayer.speler}}</p>
     <p>{{this.selectedplayer.geboortedatum}}</p>
     <p>{{this.selectedplayer.club}}</p>
+    <input type="checkbox">
   </div>
 </template>
 
