@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    .input-container {
+      margin-bottom: 10px;
+    }
+
+    .input-container p {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0;
+      width: 150px; /* Adjust the width as needed */
+      margin-right: 50px;
+    }
+
+    .input-container input,
+    .input-container button {
+      display: inline-block;
+      vertical-align: middle;
+      width: 150px;
+      margin-right: 50px;
+    }
+
+    #output {
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <div class="input-container">
+    <p>Name:</p>
+    <input type="text" id="nameInput" placeholder="Name">
+  </div>
+  <div class="input-container">
+    <p>Surname:</p>
+    <input type="text" id="surnameInput" placeholder="Surname">
+  </div>
+  <div class="input-container">
+    <button onclick="genereerMelding()">Genereer melding</button>
+    <input type="text" id="output" readonly>
+  </div>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

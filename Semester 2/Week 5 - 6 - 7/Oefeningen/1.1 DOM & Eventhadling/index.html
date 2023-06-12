@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rekenmachine</title>
+  <style>
+    .container {
+      display: flex;
+      align-items: center;
+    }
+
+    .container input[type="text"],
+    .container p,
+    .container button {
+      margin-right: 10px;
+    }
+
+    #output {
+      width: 250px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <input type="text" id="input1">
+    <p>X</p>
+    <input type="text" id="input2">
+    <button id="Bereken" onclick="bereken()">Berekenen</button>
+  </div>
+  <input type="text" id="output" readonly>
+
+<script src="script.js"></script>
+</body>
+</html>
