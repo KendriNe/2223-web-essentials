@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Genereer oneven getallen</title>
+    <style>
+        .input-container {
+            margin-bottom: 10px;
+        }
+
+        .input-container p {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0;
+            width: 200px; /* Adjust the width as needed */
+            margin-right: 25px;
+        }
+
+        .input-container input,
+        .input-container button {
+            display: inline-block;
+            vertical-align: middle;
+            width: 200px;
+            margin-right: 25px;
+        }
+
+        #output {
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="input-container">
+        <p>Geef een getal tussen 0 en 50</p>
+        <input type="text" id="inputGetal">
+    </div>
+    <div class="input-container">
+        <button onclick="generateOddNumbers()">Genereer oneven getallen</button>
+        <input type="text" id="output" readonly>
+    </div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
