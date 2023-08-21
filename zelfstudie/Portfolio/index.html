@@ -11,17 +11,19 @@
     <header>
       <h1>Mijn Portfolio</h1>
     </header>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#cv">CV</a></li>
-        <li><a href="#info">Info</a></li>
-        <li><a href="#logboek">Logboek</a></li>
-        <li><a href="#competenties">Competenties</a></li>
-        <li><a href="#opdrachten">Opdrachten</a></li>
-        <li><a href="#reflectie">Reflectie</a></li>
-      </ul>
-    </nav>
+    <div class="nav-container">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#info">Info</a></li>
+          <li><a href="#logboek">Logboek</a></li>
+          <li><a href="#competenties">Competenties</a></li>
+          <li><a href="#opdrachten">Opdrachten</a></li>
+          <li><a href="#reflectie">Reflectie</a></li>
+        </ul>
+      </nav>
+    </div>
     <main>
       <section id="home">
         <h2>Inleidende tekst</h2>
@@ -297,7 +299,7 @@
       <section id="opdrachten">
         <h2>Opdrachten</h2>
         <div class="opdracht">
-          <h3>Opdracht 1: Titel van de opdracht</h3>
+          <h3>Opdracht 1: POP Planning opdracht</h3>
           <p>
             Bij deze opdracht moesten we een planning maken die we zouden
             gebruiken om door het jaar heen alles te kunnen bijhouden en mee te
@@ -326,7 +328,7 @@
         </div>
 
         <div class="opdracht">
-          <h3>Opdracht 2: Titel van de opdracht</h3>
+          <h3>Opdracht 2: POP evaluatie opdracht</h3>
           <p>
             Deze opdracht liet ons reflecteren op basis van de Kolb en
             STAR-methode.
@@ -348,6 +350,21 @@
               href="assets/POP+opdracht+reflecteren-1.pdf"
               target="_blank"
               class="cv-button view"
+              >Bekijk in Browser</a
+            >
+          </div>
+        </div>
+        <div class="opdracht">
+          <h3>Opdracht 3: Web project</h3>
+          <p>Hier moesten we een CV maken in website vorm</p>
+          <div class="opdracht-preview">
+            <img
+              src="assets/foto van CV opdracht.PNG"
+              alt="Voorbeeld van opdracht 2"
+            />
+          </div>
+          <div class="opdracht-buttons">
+            <a href="assets/CV/CV.html" target="_blank" class="cv-button view"
               >Bekijk in Browser</a
             >
           </div>
@@ -397,5 +414,7 @@
     <footer>
       <p>&copy; 2023 Mijn Portfolio. Alle rechten voorbehouden.</p>
     </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
