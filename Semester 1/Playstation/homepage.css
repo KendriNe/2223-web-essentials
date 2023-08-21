@@ -97,10 +97,7 @@ header img {
 }
 
 .cards:hover {
-    border: solid blue 3px;
-    opacity: 100%;
-    position: relative;
-    bottom: 15px;
+    transition: all .2s ease-in-out 0s;
 }
 
 .container3 {

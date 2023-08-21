@@ -1,10 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>1.6</title>
+
+  <style>
+    .input-container {
+      margin-bottom: 10px;
+    }
+
+    .input-container p {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0;
+      width: 150px; /* Adjust the width as needed */
+      margin-right: 25px;
+    }
+
+    .input-container input,
+    .input-container button {
+      display: inline-block;
+      vertical-align: middle;
+      width: 150px;
+      margin-right: 25px;
+    }
+
+    #output {
+      width: 300px;
+    }
+
+  </style>
 </head>
 <body>
-$END$
+  <div class="input-container">
+    <p>Geef een dag in</p>
+    <input type="text" id="inputDag"> </input>
+  </div>
+  <div class="input-container">
+    <button onclick="dagenInTekst()">Genereer tekst</button>
+    <input type="text" id="output" readonly>
+  </div>
+
+
+
+
+<script src="script.js"></script>
 </body>
 </html>
